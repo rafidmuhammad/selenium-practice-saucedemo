@@ -1,19 +1,22 @@
-# Selenium-WebDriver Boilerplate
-    
-Selenium-WebDriver end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Jest](https://jestjs.io) and Expect. Clone or fork this repository.
+# Selenium-WebDriver Practice
+
+Selenium-WebDriver practice on https://www.saucedemo.com/, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Jest](https://jestjs.io) and Expect.
 
 ## Prequisite
 
-Insall [NodeJs](https://nodejs.org/en/download/)
-    
-## Getting Started
-    // Install dependencies
-	1. npm install
+Install [NodeJs](https://nodejs.org/en/download/)
 
-	// Run the test
+## Getting Started
+
+    // Install dependencies
+    1. npm install
+
+    // Run the test
     2. npm run test
-        
+
+
 ## API Documentation
+
 1. [Expect](https://jestjs.io/docs/expect)
 2. [Hooks](https://jestjs.io/docs/setup-teardown)
 3. [Selector](https://www.w3schools.com/cssref/css_selectors.asp)
