@@ -6,9 +6,7 @@ describe("Login", () => {
   let browser;
 
   beforeAll(async () => {
-    browser = await new Builder()
-      .forBrowser("chrome")
-      .build();
+    browser = await new Builder().forBrowser("chrome").build();
     browser.get("https://www.saucedemo.com/");
   });
 
@@ -16,7 +14,7 @@ describe("Login", () => {
     browser.quit();
   });
 
-  test("should success login", async () => {
+  test("should login successfully", async () => {
     const usernameField = await browser.findElement(By.id("user-name"));
     const passwordField = await browser.findElement(By.id("password"));
     const loginButton = await browser.findElement(By.id("login-button"));
